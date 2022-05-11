@@ -27,12 +27,12 @@ addSkill("HTML", 90, progressContent);
 addSkill("CSS", 95, progressContent);
 addSkill("JS", 80, progressContent);
 addSkill("PYTHON", 95, progressContent);
-addSkill("FLASK", 70, progressContent);
+addSkill("FLASK", 90, progressContent);
 addSkill("MICROSOFT ACCESS", 80, progressContent);
-addSkill("SQL", 50, progressContent);
-addSkill("JAVA", 60, progressContent);
-addSkill("C", 50, progressContent);
-addSkill("React", 20, progressContent);
+addSkill("SQL", 75, progressContent);
+addSkill("JAVA", 80, progressContent);
+addSkill("C", 80, progressContent);
+addSkill("React", 70, progressContent);
 
 
 function addSkill(skill, level, element) {
@@ -70,4 +70,8 @@ function shrink_menu() {
     console.log("menu deactivated");
     navbar.style.display = "none";
   }
+}
+
+function send_email(){
+    alert("Sorry, email sending is temporarily unavailable. You can send me email on address: gleb.omarov@gmail.com");
 }
