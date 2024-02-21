@@ -22,17 +22,17 @@ for (let counter = 0; counter < resolution; counter++) {
   document.querySelector(".slider-intro-background").appendChild(pixel);
 }
 //  progress
-progressContent = document.querySelector(".skills-content");
-addSkill("HTML", 90, progressContent);
-addSkill("CSS", 95, progressContent);
-addSkill("JS", 80, progressContent);
-addSkill("PYTHON", 95, progressContent);
-addSkill("FLASK", 90, progressContent);
-addSkill("MICROSOFT ACCESS", 80, progressContent);
-addSkill("SQL", 75, progressContent);
-addSkill("JAVA", 80, progressContent);
-addSkill("C", 80, progressContent);
-addSkill("React", 70, progressContent);
+// progressContent = document.querySelector(".skills-content");
+// addSkill("HTML", 90, progressContent);
+// addSkill("CSS", 95, progressContent);
+// addSkill("JS", 80, progressContent);
+// addSkill("PYTHON", 95, progressContent);
+// addSkill("FLASK", 90, progressContent);
+// addSkill("MICROSOFT ACCESS", 80, progressContent);
+// addSkill("SQL", 75, progressContent);
+// addSkill("JAVA", 80, progressContent);
+// addSkill("C", 80, progressContent);
+// addSkill("React", 70, progressContent);
 
 
 function addSkill(skill, level, element) {
